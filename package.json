@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx nodemon -r dotenv/config ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.6"
+  }
+}
